@@ -133,11 +133,15 @@ class GameScene: SKScene {
     }
     
     @objc private func swipeRight(sender: UISwipeGestureRecognizer) {
-        car.move(inDirection: sender.direction)
+        if car.position.x < size.width - car.size.width {
+            car.move(inDirection: sender.direction)
+        }
     }
        
     @objc private func swipeLeft(sender: UISwipeGestureRecognizer) {
-        car.move(inDirection: sender.direction)
+        if car.position.x > car.size.width {
+            car.move(inDirection: sender.direction)
+        }
     }
     
     // MARK: - Handle Collisions
