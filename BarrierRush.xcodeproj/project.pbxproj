@@ -25,7 +25,7 @@
 		A57497D92B5AEEA600EB39BF /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A57497D82B5AEEA600EB39BF /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		A57497DB2B5AEEA600EB39BF /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = A57497DA2B5AEEA600EB39BF /* FirebaseAppCheck */; };
 		A57497DE2B5B004B00EB39BF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57497DD2B5B004B00EB39BF /* AppCoordinator.swift */; };
-		A57497E12B5B008D00EB39BF /* Coordinatorl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57497E02B5B008D00EB39BF /* Coordinatorl.swift */; };
+		A57497E12B5B008D00EB39BF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57497E02B5B008D00EB39BF /* Coordinator.swift */; };
 		A57497E52B5B033700EB39BF /* StartGameCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57497E42B5B033700EB39BF /* StartGameCoordinator.swift */; };
 		A57497E72B5B03E400EB39BF /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57497E62B5B03E400EB39BF /* WebViewCoordinator.swift */; };
 		A57497E92B5B0B0600EB39BF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57497E82B5B0B0600EB39BF /* WebView.swift */; };
@@ -56,7 +56,7 @@
 		A57497C02B5AE9B100EB39BF /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
 		A57497CF2B5AEC8C00EB39BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A57497DD2B5B004B00EB39BF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		A57497E02B5B008D00EB39BF /* Coordinatorl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinatorl.swift; sourceTree = "<group>"; };
+		A57497E02B5B008D00EB39BF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		A57497E42B5B033700EB39BF /* StartGameCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameCoordinator.swift; sourceTree = "<group>"; };
 		A57497E62B5B03E400EB39BF /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
 		A57497E82B5B0B0600EB39BF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		A57497DF2B5B006700EB39BF /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				A57497E02B5B008D00EB39BF /* Coordinatorl.swift */,
+				A57497E02B5B008D00EB39BF /* Coordinator.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -326,7 +326,7 @@
 				A57497FE2B5BE8A700EB39BF /* GameScene+SKPhysicsContactDelegate.swift in Sources */,
 				A57497BF2B5AE9B100EB39BF /* GameScene.swift in Sources */,
 				A57498002B5C052700EB39BF /* GameOverScene.swift in Sources */,
-				A57497E12B5B008D00EB39BF /* Coordinatorl.swift in Sources */,
+				A57497E12B5B008D00EB39BF /* Coordinator.swift in Sources */,
 				A52E1FFE2B5DBF120011EA61 /* Car.swift in Sources */,
 				A57497C12B5AE9B100EB39BF /* StartGameViewController.swift in Sources */,
 				A52E20092B5E6FFF0011EA61 /* NetworkCheckService.swift in Sources */,
